@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Human
+comment0.text=\r\n\ Your\ average\ fleshy\ mortal\ \r\n\r\n\ @author\ Ryan\ Kennedy\r\n\ @version\ 11.10.2019\r\n
+comment1.params=
+comment1.target=Human()
+comment1.text=\r\n\ Generic\ no-param\ constructor\ for\ objects\ of\ class\ Human\r\n
+numComments=2

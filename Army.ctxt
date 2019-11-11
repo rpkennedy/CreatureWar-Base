@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Army
+comment0.text=\r\n\ Create\ an\ army,\ has\ a\ name\ an\ array\ list\ of\ creatures\r\n\r\n\ @author\ Ryan\ Kennedy\r\n\ @version\ 11.10.2019\r\n
+comment1.params=name
+comment1.target=Army(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Army\r\n\ @param\ name\ The\ name\ of\ the\ army\r\n
+comment2.params=input
+comment2.target=void\ populateJoint(int)
+comment2.text=\r\n\ Method\ for\ adding\ good\ and\ evil\ creatures\ into\ an\ army\r\n\ \r\n\ @param\ input\ The\ number\ of\ creatures\ your\ army\ will\ spawn\r\n
+numComments=3

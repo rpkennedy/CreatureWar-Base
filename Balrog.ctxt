@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Balrog
+comment0.text=\r\n\ Your\ larger\ hellspawn\r\n\r\n\ @author\ Ryan\ Kennedy\r\n\ @version\ 11.10.2019\r\n
+comment1.params=
+comment1.target=Balrog()
+comment1.text=\r\n\ Generic\ no-param\ constructor\ for\ objects\ of\ class\ Balrog\r\n
+comment2.params=
+comment2.target=int\ damage()
+comment2.text=\r\n\ Override\ Creature.damage--attack\ twice\r\n\ \r\n\ @return\ Damage\ dealt\r\n
+numComments=3

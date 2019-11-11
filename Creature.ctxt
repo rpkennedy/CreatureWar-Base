@@ -1,6 +1,16 @@
 #BlueJ class context
-comment0.params=
-comment0.target=Creature()
+comment0.target=Creature
+comment0.text=\r\n\ Superclass\ for\ the\ lads\ n\ lasses,\ base\ fields\ and\ methods\r\n\ to\ be\ used\ by\ the\ subclasses\r\n\ \r\n\ @author\ \ Ryan\ Kennedy\r\n\ @version\ 11.10.2019\r\n
 comment1.params=
-comment1.target=int\ damage()
-numComments=2
+comment1.target=Creature()
+comment1.text=\r\n\ Generic\ no-paramter\ constructor\ for\ creature\ class\r\n
+comment2.params=hp\ strength
+comment2.target=Creature(int,\ int)
+comment2.text=\r\n\ The\ big\ boy\ constructor\ for\ creature\ class\r\n\ \r\n\ @param\ hp\ The\ health\ points\ the\ creature\ starts\ with\r\n\ @param\ strength\ The\ max\ damage\ the\ creature\ can\ deal\r\n
+comment3.params=
+comment3.target=boolean\ isAlive()
+comment3.text=\r\n\ Returns\ if\ the\ creature\ is\ alive\ or\ dead\r\n\ \r\n\ @return\ True\ is\ alive,\ False\ is\ dead\r\n
+comment4.params=
+comment4.target=int\ damage()
+comment4.text=\r\n\ How\ much\ damage\ the\ creature\ deals,\ 1\ min\ and\ strength\ is\ max\r\n\ \r\n\ @return\ Damage\ dealt\r\n
+numComments=5

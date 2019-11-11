@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Elf
+comment0.text=\r\n\ Your\ magical\ fleshy\ mortal,\ watch\ out\ \r\n\r\n\ @author\ Ryan\ Kennedy\r\n\ @version\ 11.10.2019\r\n
+comment1.params=
+comment1.target=Elf()
+comment1.text=\r\n\ Generic\ no-param\ constructor\ for\ objects\ of\ class\ Elf\r\n
+comment2.params=
+comment2.target=int\ damage()
+comment2.text=\r\n\ Override\ Creature.damage--10%\ chance\ to\ deal\ 2x\ dam\r\n\ \r\n\ @return\ Damage\ dealt\r\n
+numComments=3

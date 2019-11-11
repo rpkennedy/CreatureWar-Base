@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Demon
+comment0.text=\r\n\ Your\ hellspawn\ superclass\ \r\n\r\n\ @author\ Ryan\ Kennedy\r\n\ @version\ 11.10.2019\r\n
+comment1.params=
+comment1.target=Demon()
+comment1.text=\r\n\ Generic\ no-param\ constructor\ for\ objects\ of\ class\ Demon\r\n
+comment2.params=a\ b
+comment2.target=Demon(int,\ int)
+comment3.params=
+comment3.target=int\ damage()
+comment3.text=\r\n\ Override\ Creature.damage--5%\ chance\ to\ do\ +50\ dam\r\n\ \r\n\ @return\ Damage\ dealt\r\n
+numComments=4

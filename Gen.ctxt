@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Gen
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Gen\ here.\r\n\r\n\ @author\ Ryan\ Kennedy\r\n\ @version\ 11.11.2019\r\n
+comment1.params=
+comment1.target=Gen()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Gen\r\n
+comment2.params=y
+comment2.target=int\ num(int)
+comment2.text=\r\n\ Generate\ random\ number\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+numComments=3
