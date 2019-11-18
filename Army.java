@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class Army
 {
     private String name;
-    private ArrayList army;
+    public ArrayList army;
     
     /**
      * Constructor for objects of class Army
@@ -22,7 +22,7 @@ public class Army
 
     
     /**
-     * Method for adding good and evil creatures into an army
+     * Method for adding GOOD and EVIL creatures into an army
      * 
      * @param input The number of creatures your army will spawn
      */
@@ -39,5 +39,46 @@ public class Army
             else
             army.add(new Balrog());
         }
+    }
+    
+    /**
+     * Method for adding EVIL creatures into an army
+     * 
+     * @param input The number of creatures your army will spawn
+     */
+    public void populateEvil(int input)
+    {
+        for (int i = 0; i < input; i++){
+            int race = Gen.num(100);
+            if (race < 90)
+            army.add(new Cyberdemon());
+            else
+            army.add(new Balrog());
+        }
+    }
+    
+    /**
+     * Method for adding Good creatures into an army
+     * 
+     * @param input The number of creatures your army will spawn
+     */
+    public void populateGood(int input)
+    {
+        for (int i = 0; i < input; i++){
+            int race = Gen.num(100);
+            if (race < 70)
+            army.add(new Human());
+            else
+            army.add(new Elf());
+        }
+    }
+    
+    /**
+     * Method for calculating creature death and removal if so
+     */
+    public void trim(int index){
+        Creature temp;
+        temp = (Creature)(army.get(index));
+        
     }
 }

@@ -13,4 +13,13 @@ public class Cyberdemon extends Demon
     {
         super((Gen.num(75)+25),(Gen.num(20)+20));
     }
+    
+    /**
+     * Abstract method for type determination
+     */
+    public String getType(){
+        String s = new String();
+        s = "Cyberdemon";
+        return s;
+    }
 }

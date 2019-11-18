@@ -26,7 +26,10 @@ public class Gen
      */
     public static int num(int y)
     {
-        // put your code here
+        if (rand == null) {
+            rand = new Random();
+        }
+        
         return rand.nextInt(y);
     }
 }

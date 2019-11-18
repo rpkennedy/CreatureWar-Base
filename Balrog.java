@@ -23,4 +23,13 @@ public class Balrog extends Demon
    public int damage(){
        return super.damage() + super.damage();
    }
+   
+   /**
+     * Abstract method for type determination
+     */
+    public String getType(){
+        String s = new String();
+        s = "Balrog";
+        return s;
+    }
 }

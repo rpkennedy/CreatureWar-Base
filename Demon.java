@@ -4,7 +4,7 @@
  * @author Ryan Kennedy
  * @version 11.10.2019
  */
-public class Demon extends Creature
+public abstract class Demon extends Creature
 {
     /**
      * Generic no-param constructor for objects of class Demon
@@ -17,7 +17,7 @@ public class Demon extends Creature
     public Demon(int a, int b){
         super(a, b);
     }
-    
+    public abstract String getType();
     /**
     * Override Creature.damage--5% chance to do +50 dam
     * 

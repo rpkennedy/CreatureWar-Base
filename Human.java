@@ -15,4 +15,13 @@ public class Human extends Creature
     {
         super((Gen.num(20)+10),(Gen.num(13)+5));
     }
+    
+    /**
+     * Abstract method for type determination
+     */
+    public String getType(){
+        String s = new String();
+        s = "Human";
+        return s;
+    }
 }

@@ -26,4 +26,13 @@ public class Elf extends Creature
        else
        return Gen.num(strength)+1;
    }
+   
+   /**
+     * Abstract method for type determination
+     */
+    public String getType(){
+        String s = new String();
+        s = "Elf";
+        return s;
+    }
 }
