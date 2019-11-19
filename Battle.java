@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 /**
  * Battle sim
@@ -78,40 +79,73 @@ public class Battle
             rep1.takeDamage(rep2.calcDamage());
             System.out.println(rep2.calcDamage()+" damage done by "+rep2.getType()+"!");
 
-            if (rep1.isAlive())
-                System.out.println(rep1.getType()+" has sustained injuries\n");
+            if (rep1.isAlive()){
+                System.out.println(rep1.getType()+" has sustained injuries");
+                System.out.println("---------------------------------------");
+                System.out.println("Forces of Balance: "+army1.army.size()+" | Forces of Chaos: "+army2.army.size());
+                System.out.println("");}
             else{
                 army1.army.remove((army1.army.size())-1);
-                System.out.println(rep1.getType()+" has died\n");
+                System.out.println(rep1.getType()+" has died");
+                System.out.println("---------------------------------------");
+                System.out.println("Forces of Balance: "+army1.army.size()+" | Forces of Chaos: "+army2.army.size());
+                System.out.println("");
             }
+            try
+            {
+                Thread.sleep(1500);
+            }
+            catch(InterruptedException ex)
+            {
+                Thread.currentThread().interrupt();
+            }
+            if (army1.army.isEmpty()){
+                System.out.println("");
+                System.out.println("-------------------------------");
+                System.out.println("");
+                System.out.println("The Forces of Chaos have won");
+                System.out.println("with "+army2.army.size()+" creatures left");
+                System.out.println("");
+                System.out.println("-------------------------------");
+                break;
+            }    
             
-                
             rep2.takeDamage(rep1.calcDamage());
             System.out.println(rep1.calcDamage()+" damage done by "+rep1.getType()+"!");
 
-            if (rep2.isAlive())
-                System.out.println(rep2.getType()+" has sustained injuries\n");
+            if (rep2.isAlive()){
+                System.out.println(rep2.getType()+" has sustained injuries");
+                System.out.println("---------------------------------------");
+                System.out.println("Forces of Balance: "+army1.army.size()+" | Forces of Chaos: "+army2.army.size());
+                System.out.println("");}
             else{
                 army2.army.remove((army2.army.size())-1);
-                System.out.println(rep2.getType()+" has died\n");
+                System.out.println(rep2.getType()+" has died");
+                System.out.println("---------------------------------------");
+                System.out.println("Forces of Balance: "+army1.army.size()+" | Forces of Chaos: "+army2.army.size());
+                System.out.println("");
+            }
+            try
+            {
+                Thread.sleep(1500);
+            }
+            catch(InterruptedException ex)
+            {
+                Thread.currentThread().interrupt();
+            }
+            if (army2.army.isEmpty()){
+                System.out.println("");
+                System.out.println("-------------------------------");
+                System.out.println("");
+                System.out.println("The Forces of Balance have won");
+                System.out.println("with "+army1.army.size()+" creatures left");
+                System.out.println("");
+                System.out.println("-------------------------------");
+                break;
             }
         } 
         
-        if (army1.army.isEmpty()){
-            System.out.println("-------------------------------");
-            System.out.println("");
-            System.out.println("The Forces of Chaos have won");
-            System.out.println("with "+army2.army.size()+" creatures left");
-            System.out.println("");
-            System.out.println("-------------------------------");
-        }
-        if (army2.army.isEmpty()){
-            System.out.println("-------------------------------");
-            System.out.println("");
-            System.out.println("The Forces of Balance have won");
-            System.out.println("with "+army1.army.size()+" creatures left");
-            System.out.println("");
-            System.out.println("-------------------------------");
-        }
+        
+        
     }
 }
